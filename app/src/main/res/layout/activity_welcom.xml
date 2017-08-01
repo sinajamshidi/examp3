@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+   <TextView
+       android:textStyle="italic"
+       android:layout_centerHorizontal="true"
+       android:textSize="30dp"
+       android:text="welcom to sinaweather"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/welcom"
+        android:layout_marginTop="40dp"
+        android:layout_width="400dp"
+        android:layout_height="300dp" />
+    <TextView
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="pls enter your city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/city"
+        android:hint="for example: tehran"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:text="show!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

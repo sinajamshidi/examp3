@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/weather1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.asus.sinaweather.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="city:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="date and time:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="60dp"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="condition:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="weather temperature:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="180dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="wind speed:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="230dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="wind direction:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="280dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:text="sunrise:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/sunrise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="330dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="sunset:"
+        android:textColor="#053ea7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#bc0710"
+        android:id="@+id/sunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="380dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
